@@ -1,0 +1,13 @@
+server:
+  port: 8101
+
+
+spring:
+  elasticsearch:
+    schema: http
+    user-name: elastic
+    pass-word: xxxxxx
+    nodes:
+      - 172.0.0.1:9200
+    numberOfShards: 1
+    numberOfReplicas: 0
