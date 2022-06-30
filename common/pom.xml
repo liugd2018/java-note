@@ -14,6 +14,17 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
+        <spring.boot.version>2.3.2.RELEASE</spring.boot.version>
+        <spring.cloud.alibaba.version>2.2.6.RELEASE</spring.cloud.alibaba.version>
+        <commons.lang3.version>3.11</commons.lang3.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
+        <lombok.version>1.18.12</lombok.version>
+        <mapstruct.version>1.3.1.Final</mapstruct.version>
+        <org.elasticsearch.version>7.6.2</org.elasticsearch.version>
+        <jackson-version>2.12.1</jackson-version>
+        <springfox.version>3.0.0</springfox.version>
+
     </properties>
     <dependencies>
 
@@ -74,6 +85,7 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
+            <version>${springfox.version}</version>
         </dependency>
     </dependencies>
 
